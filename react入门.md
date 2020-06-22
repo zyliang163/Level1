@@ -10,7 +10,7 @@
       6.单向响应的数据流 − 采用单向响应的数据流，从而减少了重复代码。
       7.函数式编程 -React中基本都是函数,易于代码维护和自动化测试
                     
-    ![logo512.png]
+    ![logo512.png]https://github.com/zyliang163/Level1/blob/master/logo512.png
     That's it,当之无愧的宝剑~
     剑气如风,我们要有一定的内功基底:
       1. 掌握html、css、javascript基础知识
@@ -21,15 +21,15 @@
      1 npm是nodeJs包管理工具
      2 React生态系统极其强大,React.js web开发,ReactNative移动端开发,ReactVr虚拟现实技术开发以及服务端应用,即所谓的'Learn Once, Write Anywhere'.
 
-    ![2.jpg]
+    ![2.jpg]https://github.com/zyliang163/Level1/blob/master/2.png
     趣味学习：山外有山,人外有人!优秀的你一定知道,React也有自己的对手.那就是vue,vue也是个优秀的前端轻量级web框架,社区强大,上手简单.有兴趣可以移步本站vue教程,从中品鉴出各自的逻辑思维方式~
-    ![3.jpg]
+    ![3.jpg]https://github.com/zyliang163/Level1/blob/master/3.png
 ### 环境搭建
     我们开始动手铸造一把宝剑,首先要搭建一个环境!
     我给大家引见几种方式.
     第一种：
       在线玩转:如果你习惯在线开发,CodePen, CodeSandbox, Glitch, or Stackblitz等是个不错的选择,拥有完整开发环境,方便编辑和预览,适合新手入坑~
-    ![img05.png]
+    ![05.png]https://github.com/zyliang163/Level1/blob/master/05.png
     第二种:
       原始方式,<script>标签引入,使用浏览器进行编译,效率较低,工作中不会用到的~
       get技巧1:
@@ -42,7 +42,7 @@
       注意:babel可以用cdn提供的,
           如<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
           也本地引入babel包
-        ![img06.png]
+        ![img06.png] https://github.com/zyliang163/Level1/blob/master/06.png
     第三种:
       Create React App:这是官方提供的快速构建基于Webpack+ES6的react单页面应用的脚手架工具,这种方式会给我们创建一个最佳的单页面应用和最舒适的学习环境!
       get技巧:
@@ -55,7 +55,7 @@
           cd my-app
           yarn start
         正常运行效果如下图,即已完成,so Easy!
-      ![img07.png]
+      ![img07.png]https://github.com/zyliang163/Level1/blob/master/07.png
       这也是工作中我们最常用方式了,后面我们都用这种方式为主线学习~
 
       小贴士:
@@ -160,7 +160,7 @@
               </React.StrictMode>,
               document.getElementById('root')
           );
-      ![if.gif]
+      ![if.gif]https://github.com/zyliang163/Level1/blob/master/if.gif
     小贴士:
         案例代码isOk={true},是props语法,单向数据流,主要父子间数据传递
     趣味学习:
@@ -180,7 +180,7 @@
            </ul>
      map遍历:
      const base = <ul>{list.map((item,index)=><li key={index}><span>{item.name}</span>&nbsp;<span>{item.age}</span></li>)}</ul>
-     ![list.png]
+     ![list.png]https://github.com/zyliang163/Level1/blob/master/list.png
       小贴士:
         案例中key属性,标记唯一元素的属性,提高diff算法效率
       趣味学习:
