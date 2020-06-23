@@ -180,9 +180,9 @@
            const base = props=>{return props.isOk&&<h1>I'm fine</h1>}
 
 ###  1.6 jsx列表渲染
-     列表渲染用的就是javascript原生循环知识,一个操作重复多次.项目应用场景特别多,比如QQ音乐🎵歌曲列表,电子邮箱列表:
-<img src="https://raw.githubusercontent.com/zyliang163/Level1/master/mt1.jpeg" style="margin-left:15px;">
-<img src="https://raw.githubusercontent.com/zyliang163/Level1/master/em0.jpeg" style="margin-left:15px;"><br>
+     列表渲染用的就是javascript原生循环知识,一个操作重复多次.应用场景特别多,比如QQ音乐🎵歌曲列表,电子邮箱列表等:
+<img src="https://raw.githubusercontent.com/zyliang163/Level1/master/QQ0.jpeg" style="margin-left:15px;">
+<img src="https://raw.githubusercontent.com/zyliang163/Level1/master/pdd.jpeg" style="margin-left:15px;"><br>
      我们在上一讲代码基础编辑代码~
      定义一个list:
      const list = [{name:'章三',age:25},{name:'赵凯',age:18},{name:'项少侠',age:22}]
